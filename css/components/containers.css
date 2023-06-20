@@ -1,0 +1,60 @@
+/* ---------- MAIN CONTAINER ---------- */
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .main-container {
+    width: 90%;
+  }
+}.main-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+.sub-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 45px 15px;
+  width: 90%;
+  max-width: 900px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sub-container:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.20);
+}
+
+@media screen and (max-width: 900px){
+  .main-container {
+    width: 95%;
+  }
+  .sub-container {
+    width: 95%;
+  }
+}
+
+/* ---------- ATTRIBUTES ---------- */
+/*
+.flex-row {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-sp-ev {
+  justify-content: space-evenly;
+}
+.flex-sp-be {
+  justify-content: space-between;
+}
+.flex-sp-ar {
+  justify-content: space-around;
+} */

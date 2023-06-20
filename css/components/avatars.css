@@ -1,0 +1,15 @@
+.avatar-one {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 3px 0 12px 5px rgba(88, 88, 88, 0.4);
+}
+.avatar-two {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(110, 110, 110);
+  box-shadow: 3px 0 12px 5px rgba(88, 88, 88, 0.4);
+}
